@@ -19,7 +19,7 @@ sudo aptitude -y safe-upgrade
 sudo aptitude -y install vim
 
 # Install cURL.
-sudo aptitude -y intall curl
+sudo aptitude -y install curl
 
 # Install tmux.
 sudo aptitude -y install tmux
