@@ -38,6 +38,12 @@ sudo pip install -U virtualenvwrapper
 sudo pip install git+git://github.com/kevinw/pyflakes.git
 sudo pip install -U pip
 
+# Generate an SSH key.
+ssh-keygen -t rsa
+
+# Install the Heroku toolbelt.
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 # Install RVM (so I can use gems).
 curl -L https://get.rvm.io | bash -s stable --ruby
 
