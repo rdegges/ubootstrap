@@ -32,7 +32,7 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 chsh -s /bin/zsh
 
 # Install development stuff (Python).
-sudo aptitude -y install python-dev python-pip build-essential
+sudo aptitude -y install python-dev python-pip build-essential python-gpgme
 sudo pip install -U virtualenvwrapper
 sudo pip install git+git://github.com/kevinw/pyflakes.git
 sudo pip install -U pip
