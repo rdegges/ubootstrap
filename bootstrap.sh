@@ -21,8 +21,14 @@ sudo aptitude -y install vim
 # Install cURL.
 sudo aptitude -y intall curl
 
+# Install tmux.
+sudo aptitude -y install tmux
+
 # Install development stuff (Python).
 sudo aptitude -y install python-dev python-pip build-essential
 sudo pip install -U virtualenvwrapper
 sudo pip install git+git://github.com/kevinw/pyflakes.git
 sudo pip install -U pip
+
+# Install RVM (so I can use gems).
+curl -L https://get.rvm.io | bash -s stable --ruby
