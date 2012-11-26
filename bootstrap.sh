@@ -27,6 +27,11 @@ sudo aptitude -y install tmux
 # Install zsh.
 sudo aptitude -y install zsh
 
+# Install oh-my-zsh.
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+chsh -s /bin/zsh
+rm -f ~/.zshrc
+
 # Install development stuff (Python).
 sudo aptitude -y install python-dev python-pip build-essential
 sudo pip install -U virtualenvwrapper
