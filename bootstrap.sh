@@ -35,3 +35,18 @@ sudo pip install -U pip
 
 # Install RVM (so I can use gems).
 curl -L https://get.rvm.io | bash -s stable --ruby
+
+# Install my dotfiles.
+git clone git@github.com:rdegges/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles && git submodule init
+cd ~/.dotfiles && git submodule update
+ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/pip ~/.pip
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/vim ~/.vim
+ln -s ~/.dotfiles/vimrc ~/.vimrc
+ln -s ~/.dotfiles/vim.scripts ~/.vim.scripts
+ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc
+
+# Install all Vim modules.
+vim +BundleInstall +qall
