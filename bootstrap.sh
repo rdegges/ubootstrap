@@ -70,3 +70,7 @@ ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc
 
 # Install all Vim modules.
 vim +BundleInstall +qall
+
+# Say things.
+echo "Now go install Chrome, Dropbox, and Virtualbox."
+echo "Oh. And don't forget to reboot before you do anything else so ZSH works."
