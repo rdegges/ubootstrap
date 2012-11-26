@@ -24,6 +24,9 @@ sudo aptitude -y intall curl
 # Install tmux.
 sudo aptitude -y install tmux
 
+# Install zsh.
+sudo aptitude -y install zsh
+
 # Install development stuff (Python).
 sudo aptitude -y install python-dev python-pip build-essential
 sudo pip install -U virtualenvwrapper
