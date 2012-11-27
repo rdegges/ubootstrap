@@ -33,7 +33,7 @@ chsh -s /bin/zsh
 
 # Install development stuff (Python).
 sudo aptitude -y install python-dev python-pip build-essential python-gpgme
-sudo aptitude -y install libpq-dev
+sudo aptitude -y install libpq-dev libevent-dev
 sudo pip install -U virtualenvwrapper autoenv
 sudo pip install git+git://github.com/kevinw/pyflakes.git
 sudo pip install -U pip
