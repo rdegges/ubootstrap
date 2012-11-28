@@ -18,6 +18,9 @@ sudo aptitude -y safe-upgrade
 # Install Vim.
 sudo aptitude -y install vim
 
+# Install VLC.
+sudo aptitude -y install vlc
+
 # Install cURL.
 sudo aptitude -y install curl
 
