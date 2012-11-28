@@ -21,6 +21,9 @@ sudo aptitude -y install vim
 # Install VLC.
 sudo aptitude -y install vlc
 
+# Install pwgen.
+sudo aptitude -y install pwgen
+
 # Install cURL.
 sudo aptitude -y install curl
 
