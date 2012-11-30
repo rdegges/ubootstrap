@@ -74,6 +74,8 @@ rm -f ~/.vim.scripts
 ln -s ~/.dotfiles/vim.scripts ~/.vim.scripts
 rm -f ~/.zshrc
 ln -s ~/.dotfiles/zsh/zshrc ~/.zshrc
+rm -f ~/.dircolors
+ln -s ~/.dotfiles/dircolors ~/.dircolors
 
 # Install all Vim modules.
 vim +BundleInstall +qall
