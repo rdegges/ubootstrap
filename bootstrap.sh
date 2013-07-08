@@ -105,9 +105,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
-# Generate an SSH key.
-ssh-keygen -t rsa
-
 # User notes.
 echo "Now you'll want to install your dotfiles!"
 echo "Oh. And don't forget to reboot before you do anything else so ZSH works."
