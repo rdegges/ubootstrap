@@ -66,6 +66,9 @@ heroku plugins:install git://github.com/ddollar/heroku-accounts.git
 # Install RVM (so I can use gems).
 curl -L https://get.rvm.io | bash -s stable --ruby
 
+# Install tmuxinator.
+gem install tmuxinator
+
 ## Install my dotfiles.
 #git clone git@github.com:rdegges/dotfiles.git ~/.dotfiles
 #cd ~/.dotfiles && git submodule init
